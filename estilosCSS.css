@@ -48,10 +48,10 @@
     }
   
     .cordeTexto{
-      color: orange;
+      float: right
     }
     .fundodapagina{
-      background-color: grey;
+      background-color: rgb(43, 40, 40);
       width: auto;
       height: auto;
     }
@@ -59,7 +59,7 @@
       margin-left: 50px;
       margin-right: 50px;
       
-      background-color: darkred;
+      background-color: rgb(43, 40, 40);
 
     }
     .imagemdefundomenutop{
@@ -75,7 +75,7 @@
   
   .primeiroTitulo{
     text-align: center;
-    background-color: darkred;
+    background-color: rgb(88, 3, 3);
     height: 200px;
     padding-top: 5px;
   }
@@ -84,6 +84,120 @@
     font-size: 64px;
     font-style: oblique;
   }
-  .articlestyle{
-    background-color: pink;
+  .divArticle1{
+    background-color: white;
+    
   }
+
+  .imagemArticle1{
+    border-style: solid;
+    border-color: red;
+    border-width: 8px;
+    height: 300px;
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+    
+  }
+  .textoArticle1{
+float: right;
+height: 300px;
+width: 800px;
+margin-right: 250px;
+margin-top: 50px;
+
+
+  }
+  .divArticle2{
+    background-color: grey;
+    height: 400px;
+    
+  }
+  .imagemArticle2{
+    border-style: solid;
+    border-color: yellow;
+    border-width: 8px;
+    height: 300px;
+    margin-top: 30px;
+    float:right;
+    margin-right: 300px;
+  
+    
+    
+  }
+  .textoArticle2{
+    float: left;
+    height: 300px;
+    width: 650px;
+    margin-top: 30px;
+    margin-left: 150px;
+    color: white;
+    
+    
+      }
+      .divArticle3{
+        background-color:white;
+        height: 400px;
+        
+      }
+      .imagemArticle3{
+        border-style: solid;
+        border-color: red;
+        border-width: 8px;
+        height: 300px;
+        margin-top: 30px;
+        float:left;
+        margin-left: 150px;
+      
+        
+        
+      }
+      .textoArticle3{
+        float: right;
+        height: 300px;
+        width: 650px;
+        margin-top: 30px;
+        margin-right: 250px;}
+
+        .divArticle4{
+          background-color:grey;
+          height: 400px;
+          
+        }
+        .imagemArticle4{
+          border-style: solid;
+          border-color: yellow;
+          border-width: 8px;
+          height: 300px;
+          margin-top: 30px;
+          float:right;
+          margin-right: 300px;
+        
+          
+          
+        }
+        .textoArticle4{
+          float: left;
+          height: 300px;
+          width: 650px;
+          margin-top: 30px;
+          margin-left: 150px;
+          color: white;
+          
+        }  
+       .tituloPremios{
+        text-align: center;
+        color:white;
+        margin-top: 50px;
+        
+       }
+       .divPremios{
+        background-color:  rgb(43, 40, 40);
+       }
+        
+
+
+      
+
+  
