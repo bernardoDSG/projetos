@@ -196,8 +196,74 @@ margin-top: 50px;
         background-color:  rgb(43, 40, 40);
        }
         
-
-
+       .divTabela{
+        margin-left: 400px;
+        margin-right: 400px;
       
+       }
+
+      .tituloTabela{
+       
+          color: white;
+          padding-left: 10px;
+          padding-top: 10px;
+          padding-right: 10px;
+          padding-bottom: 10px;
+          background-color:  rgb(63, 60, 60) ;
+          width: 400px;
+          
+      
+        } 
+        .primeiraLinha{
+          background-color:  rgb(129, 125, 125) ;
+          padding-left: 110px;
+          padding-top: 10px;
+          padding-right: 10px;
+          padding-bottom: 10px;
+        }
+        .segundaLinha{
+          background-color: yellow ;
+          padding-left: 110px;
+          padding-top: 10px;
+          padding-right: 10px;
+          padding-bottom: 10px;
+
+        }
+        .rodape{
+          background-image:url(https://img.freepik.com/premium-vector/black-yellow-warning-line-striped-rectangular-background_752732-832.jpg);
+          margin-bottom: 100px;
+          color:black;
+          text-align: center;
+          margin-left: 100px;
+          margin-right: 100px;
+          margin-top: 100px;
+          padding-left: 10px;
+          padding-right: 10px;
+          padding-bottom: 10px;
+          padding-top: 50px;
+        }
+        .categorias1{
+          background-color:  rgb(129, 125, 125) ;
+          padding-left: 90px;
+          padding-top: 10px;
+          padding-right: 10px;
+          padding-bottom: 10px;
+        }
+        .categorias2{
+          background-color: yellow ;
+          padding-left: 90px;
+          padding-top: 10px;
+          padding-right: 10px;
+          padding-bottom: 10px;
+        }
+        .ano1{
+          color: white;
+          padding-left: 1px;
+          padding-top: 10px;
+          padding-right: 10px;
+          padding-bottom: 10px;
+          background-color:  rgb(63, 60, 60) ;
+          width: 400px;
+        }
 
   
