@@ -1,269 +1,199 @@
-.titulo{
-  font-size: 55px;
-  color: red;
+*{
+  margin: 0;
+}
+
+body
+{
+  background-color: #123123;
+}
+
+.containerTopo
+{
+  width: 1300px;
+  height: 200px;
+  background-image: url("https://i.pinimg.com/564x/d8/1b/ee/d81beec492d692c97164558bf0902c42.jpg");
+  margin: 0 auto;
+}
+
+.imagemLogotipo
+{
+  width: 200px;
+  height: 150px;
+  position: relative;
+  top: 20px;
+  left: 80px;
+}
+
+.containerMenu
+{
+  width: 600px;
+  height: 80px;
+  background-image: url("https://t3.ftcdn.net/jpg/02/48/80/44/360_F_248804461_tQs7sRjPRr8IUhW3Yj2evpD5oaE3IZJ2.jpg");
+  position: relative;
+  top: -100px;
+  left: 500px;
+  border: 2px solid #ffffff;
+  border-radius: 20px 0px 20px 0px;
   text-align: center;
-  }
-  .body{
-      background-color: grey;
-  }
-  
-  .menuTop{
-      background-color:orange;
-      height: 369px;
-    }
-  
-    .imagemPrincipal{
-      float: left;
-     
-    }
-  
-    .alinharTexto{
-      text-align: center;
-    }
-  
-    .navegacao{
-      float: right;
-      display: flex;
-      height: 10px;
-      width: 650px;
-    background-image:url(https://www.shutterstock.com/image-photo/textured-fertile-soil-background-gardening-600nw-1413270422.jpg) ;
-      margin-right: 100px;
-      padding-top: 5px;
-      padding-left: 200px;
-      border-style: solid;
-      border-color: white;
-      border-width: 8px;
-      padding-bottom: 60px;
-      margin-top: 150px;
-      padding-right: 10px;
-      border-radius: ;
-    }
-  
-    .menuLateral{
-      float: right;
-      height: 2750px;
-      background-color: aquamarine;
-      width: 400px;
-  
-    }
-  
-    .cordeTexto{
-      float: right
-    }
-    .fundodapagina{
-      background-color: rgb(43, 40, 40);
-      width: auto;
-      height: auto;
-    }
-    .divEmCimaDoFundo{
-      margin-left: 50px;
-      margin-right: 50px;
-      
-      background-color: rgb(43, 40, 40);
+  line-height: 80px;
+}
 
-    }
-    .imagemdefundomenutop{
-    background-image: url(https://i.pinimg.com/564x/d8/1b/ee/d81beec492d692c97164558bf0902c42.jpg);
-    padding-left: 50px;
-    padding-top:50px;
-    height: 400px;
-  }
- 
-  .textoLinks{
-    color: orange;
-  }
-  
-  .primeiroTitulo{
-    text-align: center;
-    background-color: rgb(88, 3, 3);
-    height: 200px;
-    padding-top: 5px;
-  }
-  .textoFilmes{
-    color: white;
-    font-size: 64px;
-    font-style: oblique;
-  }
-  .divArticle1{
-    background-color: white;
-    
-  }
-
-  .imagemArticle1{
-    border-style: solid;
-    border-color: red;
-    border-width: 8px;
-    height: 300px;
-    margin-left: 150px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    
-    
-  }
-  .textoArticle1{
-float: right;
-height: 300px;
-width: 800px;
-margin-right: 250px;
-margin-top: 50px;
+.menuLink,
+.menuSeparator
+{
+  font-family: Arial;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
 
 
-  }
-  .divArticle2{
-    background-color: grey;
-    height: 400px;
-    
-  }
-  .imagemArticle2{
-    border-style: solid;
-    border-color: yellow;
-    border-width: 8px;
-    height: 300px;
-    margin-top: 30px;
-    float:right;
-    margin-right: 300px;
+}
+
+
+.menuLink:hover
+{
+  text-decoration: underline;
+
+
+}
+
+.containerPaginaTitulo
+{
+  width: 1300px;
+  height: 100px;
+  background-color: #550000;
+  text-align: center;
+  line-height: 100px;
+  margin: 0 auto;
+
+}
+
+.paginaTitulo{
+  font-size: 35px;
+  color: #ffffff;
+  font-family:comic sans ms
+
+
+}
+
+.containerFilmeA{
+  width: 1300px;
+  height: 300px;
+  background-color: #ffffff;
+  margin: 0 auto;
+}
+
+.filmePosterA{
+  width: 150px;
+  height: 220px;
+  border: 5px solid #ff0000;
+  float: left;
+  position: relative;
+  top: 35px;
+  left: 50px;
+}
+
+.filmeTituloA{
+  position: relative;
+  left: 130px;
+  top: 50px;
+  margin: 0;
+
+}
+
+.filmeDescricaoA{
+  width: 1100px;
+  position: relative;
+  top: 60px;
+  left: 130px;
+
+}
+.containerFilmeB{
+  width: 1300px;
+  height: 300px;
+  background-color: #555555;
+  margin: 0 auto;
+
+}
+
+.filmePosterB{
+  width: 150px;
+  height: 220px;
+  border: 5px solid #ffff00;
+  float: right;
+  position: relative;
+  top: 35px;
+  right: 70px;
+}
+
+.filmeTituloB{
+  position: relative;
+  left: 50px;
+  top: 50px;
+  margin: 0;
+  color: #ffffff;
+  margin: 0;
+}
+
+.filmeDescricaoB{
+  width: 1000px;
+  position: relative;
+  top: 60px;
+  left: 50px;
+  color: #ffffff;
   
-    
-    
-  }
-  .textoArticle2{
-    float: left;
-    height: 300px;
-    width: 650px;
-    margin-top: 30px;
-    margin-left: 150px;
-    color: white;
-    
-    
-      }
-      .divArticle3{
-        background-color:white;
-        height: 400px;
-        
-      }
-      .imagemArticle3{
-        border-style: solid;
-        border-color: red;
-        border-width: 8px;
-        height: 300px;
-        margin-top: 30px;
-        float:left;
-        margin-left: 150px;
-      
-        
-        
-      }
-      .textoArticle3{
-        float: right;
-        height: 300px;
-        width: 650px;
-        margin-top: 30px;
-        margin-right: 250px;}
 
-        .divArticle4{
-          background-color:grey;
-          height: 400px;
-          
-        }
-        .imagemArticle4{
-          border-style: solid;
-          border-color: yellow;
-          border-width: 8px;
-          height: 300px;
-          margin-top: 30px;
-          float:right;
-          margin-right: 300px;
-        
-          
-          
-        }
-        .textoArticle4{
-          float: left;
-          height: 300px;
-          width: 650px;
-          margin-top: 30px;
-          margin-left: 150px;
-          color: white;
-          
-        }  
-       .tituloPremios{
-        text-align: center;
-        color:white;
-        margin-top: 50px;
-        
-       }
-       .divPremios{
-        background-color:  rgb(43, 40, 40);
-       }
-        
-       .divTabela{
-        margin-left: 400px;
-        margin-right: 400px;
-      
-       }
+}
+.containerPremios{
+  width: 1300px;
+  height: 400px;
+  background-image: url("https://media.moddb.com/images/games/1/22/21790/Jungle_Road.jpg");
+  margin: 0 auto;
+  text-align: center;
+  background-attachment: fixed;
+}
+.premiosTitulo{
+  position: relative;
+  top: 50px;
+  margin: 0 auto;
+  color: #ffffff;
+}
+.tablePremios{
+  position: relative;
+  top: 80px;
+  margin: 0 auto;
+  width: 500px;
+  height: 250px;
 
-      .tituloTabela{
-       
-          color: white;
-          padding-left: 10px;
-          padding-top: 10px;
-          padding-right: 10px;
-          padding-bottom: 10px;
-          background-color:  rgb(63, 60, 60) ;
-          width: 400px;
-          
-      
-        } 
-        .primeiraLinha{
-          background-color:  rgb(129, 125, 125) ;
-          padding-left: 110px;
-          padding-top: 10px;
-          padding-right: 10px;
-          padding-bottom: 10px;
-        }
-        .segundaLinha{
-          background-color: yellow ;
-          padding-left: 110px;
-          padding-top: 10px;
-          padding-right: 10px;
-          padding-bottom: 10px;
+}
+.thPremios{
+  background-color: #333333;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 20px;
+}
+.trPremios{
+  text-align: center;
+}
 
-        }
-        .rodape{
-          background-image:url(https://img.freepik.com/premium-vector/black-yellow-warning-line-striped-rectangular-background_752732-832.jpg);
-          margin-bottom: 100px;
-          color:black;
-          text-align: center;
-          margin-left: 100px;
-          margin-right: 100px;
-          margin-top: 100px;
-          padding-left: 10px;
-          padding-right: 10px;
-          padding-bottom: 10px;
-          padding-top: 50px;
-        }
-        .categorias1{
-          background-color:  rgb(129, 125, 125) ;
-          padding-left: 90px;
-          padding-top: 10px;
-          padding-right: 10px;
-          padding-bottom: 10px;
-        }
-        .categorias2{
-          background-color: yellow ;
-          padding-left: 90px;
-          padding-top: 10px;
-          padding-right: 10px;
-          padding-bottom: 10px;
-        }
-        .ano1{
-          color: white;
-          padding-left: 1px;
-          padding-top: 10px;
-          padding-right: 10px;
-          padding-bottom: 10px;
-          background-color:  rgb(63, 60, 60) ;
-          width: 400px;
-        }
+.trPremios:nth-child(even){
+  background-color: #999999;
+}
 
-  
+.trPremios:nth-child(odd){
+  background-color: #dddd00;
+}
+.containerRodape{
+  width: 1300px;
+  height: 70px;
+  text-align: center;
+  background-image: url(https://t4.ftcdn.net/jpg/09/75/05/23/360_F_975052398_EVBOoI6YNwiSQERWt1PiASWqLS1ChsCX.jpg);
+  margin: 0 auto;
+  font-weight: bold;
+}
+.rodapeTexto{
+  color: #ffffff;
+  position: relative;
+  top: 10px;
+}
