@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+          <title> Atividade de JavaScript </title>
+    </head>
+<body>
+    <h1> Questão 1 </h1>
+        <script>
+            var i = 1 ;
+            while( i < 101 )
+                {
+                    document.write( i  +'<br>' );
+                    i++;
+                }
+        </script>
+    <h1> Questão 2 </h1>
+        <script>
+            var i = 3 ;
+            while ( i < 100 )
+                {
+                    document.write( i + '' + '<br>' );
+                    i = i + 3;
+                }
+        </script>
+    <h1> Questão 3 </h1>
+        <script>
+            var i = 50 ;
+            var soma = 0 ;
+            while( i < 101 )
+                {
+                    soma = i + soma;
+                    i = i + 2;
+                }
+            document.write( soma + '' + '<br>' );
+        </script>
+    <h1> Questão 4 </h1>
+        <script>
+            function calcularFatorial(num)
+                {
+                    var fatorial = 1
+                    var contador = 2
+                    while(contador <= num )
+                        {
+                            fatorial = contador*fatorial;
+                            contador++;
+                        }
+                    return fatorial;   
+                }
+            var i = 4;
+            var iFatorial = calcularFatorial(i);
+            document.write( 'O fatorial de ' + i +' é '+ iFatorial + '<br>' );
+        </script>
+    <h1> Questão 5 </h1>
+        <script>
+            function calcularMedia(n1,n2,n3,p1,p2,p3)
+                {
+                    var soma;
+                    soma = (n1*p1) + (n2*p2) + (n3*p3);
+                    var divisor;
+                    divisor = p1 + p2 + p3;
+                    var media;
+                    media = soma / divisor;
+                    return media;
+                }
+            var m = calcularMedia(10,9,8,3,2,5);
+            document.write( 'Para os parâmetros (10,9,8,3,2,5) a média ponderada é '+ m + '<br>' );
+        </script>
+    <h1> Questão 6 </h1>
+        <script>
+            var sequencia = Array(11);
+            sequencia[0]= 1;
+            sequencia[1]= 1;
+            var i =2;
+            document.write('Os primeiros números da Sequência de Fibonacci até 100 são: ');
+            document.write(sequencia[0] + ', ' + sequencia[1]);
+            while(i<11)
+                {
+                    sequencia[i]= sequencia[i-2] + sequencia[i-1];
+                    document.write(  ', ' + sequencia[i] );
+                    i++;
+                }
+            document.write('<br>');
+        </script>
+    <h1> Questão 7</h1>
+        <script>
+            function somaIntervalo(n1,n2)
+                {
+                    var soma = 0;
+                    while(n1 <= n2)
+                    {
+                        var soma = soma + n1;
+                        n1++;
+                    }
+                    return soma
+                }
+                iSoma = somaIntervalo(5,10)
+                document.write('A soma do intervalo de valores entre (5,10) é ' + iSoma );
+                document.write('<br>');
+        </script>
+    <h1> Questão 8 </h1>
+        <script>
+            var x = 13;
+            var y = 2;
+            switch(x)
+                {
+                    case 1:
+                        document.write(x + '.');
+                        break;
+                    default:
+                        while(y != 1)
+                            {
+                                if(x % 2 == 0)
+                                    {
+                                        y = (x/2);
+                                        document.write(y + ' ? ');
+                                        x = y; 
+                                    }
+                                else
+                                    {
+                                        y = (3*x) + 1;
+                                        document.write(y + ' ? ');
+                                        x = y;
+                                    }
+                            }
+                        break;                    
+                }
+        </script>
+</body>
+</html>
