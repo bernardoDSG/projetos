@@ -232,17 +232,62 @@
                   </table>
                 </div>
               </article>
-             
-             
-                
-          </section>   
+             </section>
+             <section>
+                <div class="divNomeDinossauro">
+                  <h1 class="tituloNomeDinossauro">
+                    CRIADOR DE NOME DE DINOSSAURO
+                  </h1>
+                  <form class="formularioDino" method="get" action="?" name="form_NomeDinossauro">
+                   Informe a primeira silaba do seu nome: 
+                    <input type="text" name="campo_1silaba">
+                    <br></br>
+                    Informe a ultima silaba do seu nome:
+                    <input type="text" name="campo_2silaba">
+                    <br></br>
+                    Informe a primeira silaba do seu sobrenome:
+                    <input type="text" name="campo_3silaba">
+                    <br></br>
+                    Informe a ultima silaba do seu sobrenome:
+                    <input type="text" name="campo_4silaba">
+                    <br></br>
+                    <input type="button" onclick="validarFormulario();" value="Criar Meu Nome Dinossauro">
+                    
+                  </form>    
+                  
+
+                  
+
+                </div>
+                <div class="divResultado">
+                  <script>
+                    function validarFormulario(){
+                      confirm("Deseja Prosseguir com Essa Operação?")
+            
+                      var silaba1 = document.forms["form_NomeDinossauro"].campo_1silaba.value;
+                      if(silaba1 == ""){
+                        alert("O campo Primeira Sílaba do Nome é Obrigatório");
+                      }
+                      var silaba2 = document.forms["form_NomeDinossauro"].campo_2silaba.value;
+                      if(silaba2 == ""){
+                        alert("o campo Última Sílaba do Nome é Obrigatório");
+                      }
+                      var silaba3 = document.forms["form_NomeDinossauro"].campo_3silaba.value;
+                      if(silaba3 == ""){
+                        alert("O campo Primeira Sílaba do Sobrenome é Obrigatório");
+                      }
+                      var silaba4 = document.forms["form_NomeDinossaro"].campo_4silaba.value;
+                      if(silaba4 == ""){
+                        alert("O campo Última Sílaba do Sobrenome é Obrigatório");
+                      }
+                      var nomedino= silaba1+silaba2+silaba3+silaba4+"ssauro";
+                      location.assign("teste.html#" + nomedino);
+                    }
+                  </script>               
+
+                </div>
+             </section>    
   
-              
-             
-          
-       
-          
-         
           <footer>
             <div class="containerRodape">
               <p  > <h2 class="rodapeTexto">
@@ -251,7 +296,7 @@
                
               </p>
               <p  ><h2 class="rodapeTexto">
-                JURASSIC PAGE- A sua página de informações sobre Jurassic Park 
+                JURASSIC PAGE- A sua pagina de informações sobre Jurassic Park 
               </h2>
                
               </p>

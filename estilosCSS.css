@@ -197,3 +197,28 @@ body
   position: relative;
   top: 10px;
 }
+.divNomeDinossauro{
+  width: 1300px;
+  background-color: blue;
+  height: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.tituloNomeDinossauro{
+  position: relative;
+  top: 50px;
+  color: white;
+}
+.formularioDino{
+  position: relative;
+  top: 100px;
+  color: white;
+  
+}
+.divResultado{
+  width: 1300px;
+  background-color: #ffff00;
+  height: 200px;
+  text-align: center;
+  margin: 0 auto;
+}
