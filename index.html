@@ -263,25 +263,39 @@
                   <script>
                     function validarFormulario()
                     {
-                      confirm("Deseja executar essa operação?");
-                      var silaba1 = document.forms["form_NomeDinossauro"].campo_1silaba.value;
-                      if(silaba1 == ""){
-                        alert("Todos Os Campos São Obrigatórios");
+                      var escolha= confirm("Deseja prosseguir com a operação?");
+                      if(escolha == true){
+                        var validar = true;
+                        const silaba1 = document.forms["form_NomeDinossauro"].campo_1silaba.value;
+                        const silaba2 = document.forms["form_NomeDinossauro"].campo_2silaba.value;
+                        const silaba3 = document.forms["form_NomeDinossauro"].campo_3silaba.value;
+                        const silaba4 = document.forms["form_NomeDinossauro"].campo_4silaba.value;
+                        const sufixo = "sauro";
+                        const nomedino = silaba1 + silaba4 + silaba3+ silaba2 + sufixo;
+                        nomedino;
+                        if(silaba1 == ""){
+                          validar = false;
+                          alert("O Campo 1 é Obrigatório");
+                        }
+                        if(silaba2 == ""){
+                          validar = false;
+                          alert("O Campo 2 é Obrigatório");
+                        }
+                        if(silaba3 == ""){
+                          validar = false;
+                          alert("O Campo 3 é Obrigatório");
+                        }
+                        if(silaba4 == ""){
+                          validar = false;
+                          alert("O Campo 4 é Obrigatório");
+                        }
+                        if(validar == true){
+                          document.write(nomedino);
+                        }
+                        
+                        
                       }
-                      var silaba2 = document.forms["form_NomeDinossauro"].campo_2silaba.value;
-                      if(silaba2 == ""){
-                        alert("Todos Os Campos São Obrigatórios");
-                      }
-                      var silaba3 = document.forms["form_NomeDinossauro"].campo_3silaba.value;
-                      if(silaba3 == ""){
-                        alert("Todos Os Campos São Obrigatórios");
-                      }
-                      var silaba4 = document.forms["form_NomeDinossaro"].campo_4silaba.value;
-                      if(silaba4 == ""){
-                        alert("Todos Os Campos São Obrigatórios");
-                      }
-                      var nomedino= 3;
-                      document.write(nomedino);
+                      
                     }
                   </script>               
                </div>
